@@ -1,0 +1,391 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Carter One', cursive;
+}
+body{
+    background-color:#FAFAFA;
+}
+header {
+    box-sizing: border-box;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 10px black;
+    z-index: 10;
+}
+nav {
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color:#FAFAFA;
+}
+nav img{
+    width:80px;
+    margin-left: 30px;
+}
+nav ul {
+    display:flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;     
+}
+nav a {
+    padding: 8px 15px;
+    border-radius: 15px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,#04245c,#229bdc,#04245c);
+    font-size: 20px;
+    text-decoration: underline;
+}
+main{
+    margin: 15px;
+}
+.content1 {
+    height: 600px;
+    box-sizing: border-box;
+    padding: 50px;
+    background-image:url(../images/all\ teams\ cap.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+   display: flex;
+   justify-content: center;
+}
+.content1 span{
+    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,#e5b214,yellow,#e5b214);
+}
+.content1 img{
+    width:60px;
+    height: 70px;
+    margin-left: 10px;
+}
+.content2 {
+   margin-top: 170px;
+    background-image: url(../images/paper.jpg);
+    background-size: cover;
+    border-radius:20px;
+    padding: 30px;
+}
+.content2 h2 {
+    text-align: center;
+    font-size: 36px;
+    margin:0px 520px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,#433323,#bf9e73,#433323);
+    letter-spacing: 2.5px;
+    position: absolute;
+    top:750px;
+}
+.content2 h2:hover{
+    letter-spacing: 0px;
+    transition: .6s;
+    cursor: pointer;
+}
+.para2 img {
+    width: 400px;
+    border-radius: 20px;
+}
+.para1 , .para2{
+    display: flex;
+    margin: 0px 30px;
+    text-indent: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.para1 p , .para2 p{
+    width: 900px;
+    margin: 40px ;
+    box-sizing: border-box;
+    color:#433323 ;
+}
+.para1 span,.para2 span{
+    font-size: 25px;  
+}
+.figure1 {
+    width: 350px;
+    height:400px; 
+    position: relative;
+    margin-right: 50px;
+}
+.fig1-1{
+    width: 300px;
+    height:350px;
+    border-radius: 20px;
+    z-index: 3;
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-image: url(../images/origincric1.jpg);
+    background-size: cover;
+}
+.fig1-2{
+    width: 300px;
+    height:350px;
+    background-color: #bf9e73;
+    position: absolute;
+    top:15px;
+    right:15px;
+    z-index: 2;
+    border-radius: 20px;
+}
+.fig1-3{
+    width: 300px;
+    height:350px;
+    background-color: #433323;
+    position: absolute;
+    top:25px;
+    right:25px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.figure2{
+    width: 450px;
+    height:300px; 
+    position: relative;
+}
+.fig2-1{
+    width: 400px;
+    height:250px;
+    border-radius: 20px;
+    z-index: 3;
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-image: url(../images/origincric2.jpg);
+    background-size: cover;
+}
+.fig2-2{
+    width: 400px;
+    height:250px;
+    background-color: #c7c8be;
+    position: absolute;
+    top:15px;
+    right:15px;
+    z-index: 2;
+    border-radius: 20px;
+}
+.fig2-3{
+    width: 400px;
+    height:250px;
+    background-color:#4b5049;
+    position: absolute;
+    top:25px;
+    right:25px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.figure1:hover, .figure2:hover{
+    transform: scale(1.05);
+    transition: .8s;
+}
+hr{
+    margin: 50px;
+    border: 1px solid black;  
+ }
+.content3 h2 {
+    text-align: center;
+    font-size: 40px;
+    margin:0px 650px  30px 650px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,orange,navy);
+
+}
+.content3 h2:hover{
+    letter-spacing: 3px;
+    transition: .6s;
+    cursor: pointer;
+}
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    height: 220px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+.team:hover{
+    transform:  scale(.96);
+    transition: .8s;
+}
+.teams a {
+    margin: 30px;
+    text-decoration: none;
+}
+.teamname {
+    position: relative;
+    top: 167px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    opacity: .75;
+    border-radius: 0px 0px 20px 20px;
+    height: 54px;
+}
+.team img {
+    width: 40px;
+    margin-right: 10px;
+}
+.aus {
+    background-image: url(../images/teams/aus.jpg);
+    background-size: cover;
+    color: yellow;
+    background-position: left;
+}
+.eng {
+    background-image: url(../images/teams/eng.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #bd202f;
+}
+
+.sa {
+    background-image: url(../images/teams/sa.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #91c78c;
+}
+
+.nz {
+    background-image: url(../images/teams/nz.jpg);
+    background-size: cover;
+    background-position: left;
+    color: white;
+}
+.wi {
+    background-image: url(../images/teams/wi.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #6b2134;
+}
+.pak {
+    background-image: url(../images/teams/pak.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #136851;
+}
+.afg {
+    background-image: url(../images/teams/AFG.png);
+    background-size: cover;
+    background-position: left;
+    color: #6f8bd8;
+}
+.ban {
+    background-image: url(../images/teams/ban.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #2b5649;
+}
+.sl {
+    background-image: url(../images/teams/sl.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #2d70b4;
+}
+.neth {
+    background-image: url(../images/teams/neth.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #b30e02;
+}
+.ire{
+    background-image: url(../images/teams/ire.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #5d963b;
+}
+.zim{
+    background-image: url(../images/teams/zim.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #89050a;
+}
+.ind{
+    background-image: url(../images/teams/ind.jpg);
+    background-size: cover;
+    background-position: left;
+    color: #565fae;
+}
+.batball{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.batball img{
+    width:70px;
+    height:70px;
+    margin:0px 150px;
+}
+.batball img:nth-child(2){
+    width:50px;
+}
+footer{
+    text-align: center;
+    /* margin-top: 50px; */
+    background-color: rgb(40, 39, 39);
+    color:white;
+    padding: 30px;
+    font-family:sans-serif;
+}
+footer h2{
+    display: flex;
+} 
+footer img{
+    width: 80px;
+}
+footer >p{
+    margin:30px;            
+}
+
+.footericons{
+    display: flex;
+    justify-content: center;
+}
+.footericons img{
+    width:30px;
+    margin: 0px 20px 30px 20px;
+    cursor: pointer;
+}
+.footerlast{
+    display: flex;
+    justify-content: space-between;
+}
+.footerlast p:hover{
+    letter-spacing: 0.5px;
+    transition: .4s;
+    cursor: pointer;
+    border: white solid;
+    border-width: 0px 0px 2px 0px;
+}
+.footernav{
+    display: flex;
+}
+.footernav a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    padding-bottom: 4px;
+}
+.footernav a:hover{
+    font-size: 17px;
+    border: solid white;
+    border-width: 0px 0px 2px 0px;
+    transition: .4s;
+}

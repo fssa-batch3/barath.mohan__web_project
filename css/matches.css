@@ -1,0 +1,101 @@
+body>h1{
+    margin:50px auto;
+    text-align: center;
+}
+.content1{
+    width:800px;
+    padding: 20px;
+    height:300px;
+    margin:50px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.content1 p{
+    color: rgb(119, 118, 118);
+}
+.content1-1{
+    display: flex;
+    justify-content: space-between;
+}
+.content1-1 p:nth-child(2){
+    color: #01411c;
+}
+.content1-2{
+    margin:40px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.eng img, .pak img{
+    width:80px;
+}
+.content1-3{
+    text-align: center;
+}
+.matcheslist{
+    display: flex;
+}
+.ended{
+    width:740px;
+    height: 850px;
+}
+.ended >h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.upcoming {
+    width:740px;
+    height: 850px;
+    border: solid black;
+    border-width: 0px 0px 0px .1px;
+}
+.upcoming >h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.endedmat{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.upcomingmat{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content2{
+    width:300px;
+    height:200px;
+    padding:20px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    transform: scale(.95);
+
+}
+.content2-1{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+    margin-bottom: 20px;
+}
+.team1, .team2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.country{
+    display: flex;
+    align-items: center;
+}
+.team1 img, .team2 img{
+    width:50px;
+    margin-right: 10px;
+}
+.content2 h3{
+    text-align: center;
+    margin-top: 40px;
+}
+.endedmat .content2:nth-child(3) h3{
+    margin-top: 30px;
+}
