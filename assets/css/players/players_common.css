@@ -1,7 +1,7 @@
 .content1{
     height: 600px;
     margin:100px auto 150px auto ;
-    background-image: url(../images/team-india/background.png);
+    background-image: url(../../images/team-india/background.png);
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
@@ -15,11 +15,16 @@
 }
 .content1-1{
     text-align: center;
-    height: 600px;
+    height: 700px;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.head{
+    padding:20px;
+    border-radius: 20px;
+    background-image:linear-gradient(#1da0fa,#37bef7) ;
 }
 .head h3{
     display: flex;
@@ -33,28 +38,26 @@
 .content1-1 h1{
    font-size: 40px;
    display: inline;
-}
-.content1-1 h2{
-    
+   color: #192d9d;
 }
 table{
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 th{
-    padding: 10px;
+    padding: 20px;
+    background-color: #dd6f68;
+}
+table tbody tr td:nth-child(1){
+    background-color:#1da0fa;
 }
 table,tr,th,td{
-    border-collapse: collapse;
     font-family:sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-tr,th,td{
-    border:1px solid black;
-    border-width: 1px 1px 1px 1px;
+td{
+    font-weight: bolder;
 }
-/* tbody tr:nth-child(3), tr:nth-child(3) td{
-       border-width: 0px 1px 0px 0px;
+table{
+    box-shadow: 1px 1px 15px black;
 }
-tbody tr td:nth-of-type(8){
-    border-width:0px 0px 0px 0px;
-} */

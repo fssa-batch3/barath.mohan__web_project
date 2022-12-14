@@ -86,7 +86,7 @@ h1:hover{
     position: relative;
     text-decoration: none;
     color:black;
-    transform: scale(.9);
+    transform: scale(.8);
 }
 .player1{
     width:220px;
