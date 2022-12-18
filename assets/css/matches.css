@@ -1,14 +1,28 @@
+nav ul li:nth-child(5) a{
+    box-shadow: .5px .5px 2px black;
+}
 body>h1{
-    margin:50px auto;
+    margin:50px auto 40px auto;
     text-align: center;
+
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.container1>img{
+    width: 200px;
+    height: 300px;
 }
 .content1{
     width:800px;
     padding: 20px;
     height:300px;
-    margin:50px auto;
+    margin:50px ;
     background-color: white;
     border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .content1 p{
     color: rgb(119, 118, 118);
@@ -38,20 +52,18 @@ body>h1{
     width:740px;
     height: 850px;
 }
-.ended >h2{
+.ended >h2, .upcoming>h2{
+    margin: 50px auto;
     text-align: center;
-    margin-bottom: 50px;
 }
+
 .upcoming {
     width:740px;
     height: 850px;
-    border: solid black;
+    border: solid rgb(41, 41, 41);
     border-width: 0px 0px 0px .1px;
 }
-.upcoming >h2{
-    text-align: center;
-    margin-bottom: 50px;
-}
+
 .endedmat{
     display: flex;
     justify-content: space-evenly;
@@ -70,7 +82,7 @@ body>h1{
     background-color: white;
     border-radius: 20px;
     transform: scale(.95);
-
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .content2-1{
     display: flex;
@@ -98,4 +110,13 @@ body>h1{
 }
 .endedmat .content2:nth-child(3) h3{
     margin-top: 30px;
+}
+.endedmat .content2:nth-child(4) h3,.endedmat .content2:nth-child(5) h3{
+    margin-top: 20px;
+}
+.upcomingmat .content2 h3{
+    margin-top: 30px;
+}
+.upcomingmat .content2:nth-child(1) h3,.upcomingmat .content2:nth-child(5) h3{
+    margin-top: 50px;
 }

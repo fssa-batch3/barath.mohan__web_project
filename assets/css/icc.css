@@ -1,36 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+nav ul li:nth-child(4) a{
+    box-shadow: .5px .5px 2px black;
+}
 .head{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px;
 }
+.head h1{
+    color:rgb(71, 71, 247);
+}
 .head img{
-    width: 50px;
+    width: 60px;
+    margin-right: 10px;
 }
 .choose{
     display: flex;
     justify-content: center;
 }
 .choose a{
-    margin:20px 30px 80px 30px;
+    margin:20px 30px 10px 30px;
     font-size: 20px;
-    border: 1px solid black;
     padding: 10px 40px;
     border-radius: 20px;
     text-decoration: none;
+    color:rgb(72, 72, 247);
+    box-shadow: .5px .5px 5px black;
+}
+
+body>img:nth-of-type(1){
+    position: absolute;
+}
+body>img:nth-of-type(2){
+    position: absolute;
+    left: 1100px;
 }
 .content{
-    height:1500px;
+    height:1600px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
+    margin-bottom: 150px ;
+    transform: scale(.93); 
 }
 .bat, .bowl{
-    width: 750px;
+    width: 770px;
+}
+.bat{
+    border: solid black;
+    border-width: 0px .5px 0px 0px;
 }
 .bat >h1, .bowl >h1{
     text-align: center;
-    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(50, 50, 50);
+    font-family: 'Norican', cursive;
+}
+.bat>h1{
+    margin: 100px 50px 130px 300px;
+}
+.bowl>h1{
+    margin: 100px 350px 130px 50px;
 }
 .title{
     display:flex;
@@ -40,7 +70,10 @@
     font-family: sans-serif;
     font-weight: bold;
     transform: scale(.9);
-    margin:10px;
+    margin:10px auto;
+    background-color: white;
+    padding:5px 20px;
+    border-radius: 10px;
 }
 .ranks h2:nth-of-type(1){
     margin-left: 20px;

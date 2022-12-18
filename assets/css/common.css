@@ -35,16 +35,15 @@ nav li {
     margin-right: 30px;     
 }
 nav a {
-    padding: 8px 15px;
+    padding: 8px 15px ;
     border-radius: 15px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-image: linear-gradient(to bottom right,#04245c,#229bdc,#04245c);
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: none;
+
 }
-
-
 
 .batball{
     display: flex;

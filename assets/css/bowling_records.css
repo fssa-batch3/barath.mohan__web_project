@@ -1,51 +1,96 @@
-body>h1{
+nav ul li:nth-child(3) a{
+    box-shadow: .5px .5px 2px black;
+}
+body>h1 {
     text-align: center;
     margin: 50px auto 0px auto;
-    }
-    .content{
-        width:94%;
-        margin: 50px 3%;
-    }
-    .content1{
-        border-radius: 50px;
-        display: flex;
-        justify-content: space-evenly;
-        height: 400px;
-        align-items: center;
-        text-align: center;
-        padding: 40px;
-        box-sizing: border-box;
-        background-image: radial-gradient(#b7b6b6,#FAFAFA);
-        background-image: url(../images/records/backgrond2.jpg);
-        background-size: cover;
-        transform: scale(.85);
-    }
-    .content1 img {
-        width:300px;
-        border-radius: 30px;
-        box-shadow: -2px -2px  30px black;
-    }
-    .record{
-        height: 300px;
-        border-radius: 20px;
-    }
-    .record h1{
-        margin-top:60px;
-    }
-    .record h3{
-        margin-bottom: 30px;
-    }
-    #rohit, #sachin{
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to bottom right,#04245c,#0a5d8a,#04245c);
-    }
-    #aaron{
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to right,#84801d,#989421);
+    color: white;
+}
+body{
+    background-image: url(../images/background\ img2.jpg);
+    background-size: 1500px 900px;
+    background-attachment: fixed;
 
-    }
-    .batball{
-        margin-top: 100px ;
-    }
+}
+.content {
+    width: 94%;
+    margin: 50px 3%;
+}
+
+.content1 {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-image: radial-gradient(#b7b6b6, #FAFAFA);
+    background-image: url(../images/records/backgrond2.jpg);
+    background-size: cover;
+    transform: scale(.85);
+}
+
+.content1 img {
+    width: 300px;
+    border-radius: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+}
+
+.record {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.record h1 {
+    margin-top: 60px;
+}
+
+.record h3 {
+    margin-bottom: 30px;
+}
+
+#muralitharan{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, #04245c, #0a5d8a, #04245c);
+}
+
+#aaron {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #84801d, #989421);
+}
+#akhtar{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, #91ac59, #476e63);
+
+}
+#vance{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, #80523b,#313947);
+}
+#southee{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, rgb(135, 135, 135),rgb(79, 77, 77));
+
+}
+.batball {
+    margin-top: 100px;
+}
+.content> a{
+    padding: 15px 30px;
+    border-radius:20px ;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom right,#1da0fa,#107cc5);
+    margin-left: 1130px;
+}
+.content >a:hover{
+    color: #0c598d;
+    background-image: linear-gradient(to bottom right,#a7cfe8,#9bc6e2);
+}

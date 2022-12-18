@@ -1,8 +1,18 @@
-
+nav ul li:nth-child(3) a{
+    box-shadow: .5px .5px 2px black;
+}
+body{
+    background-image:url(../images/background\ 3.jpg);
+    background-size: 1500px 1000px;
+}
 h1{
     text-align: center;
+    font-size: 35px;
     margin:50px;
-    color:rgb(70, 69, 69);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,#6ca0d2,#4c79a2);
+  
     letter-spacing: 1.5px;
 }
 .choose{
@@ -13,17 +23,18 @@ h1{
 .bat , .ball{
     width:400px;
     height: 480px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: white;
     text-align: center;
     font-size: 20px;
-    background-image: linear-gradient(rgb(83, 83, 83),lightgrey,rgb(83, 83, 83));
-    box-shadow: 15px 15px 25px grey;
+    background-image: url(../images/background\ 3.jpg);
+    background-size: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     text-decoration: none;
-    color: black;
+    color:rgb(70, 69, 69);
 }
 .bat img, .ball img{
     width:400px;
-    border-radius: 30px  30px 0px 0px ;
+    border-radius: 20px  20px 0px 0px ;
 }
 

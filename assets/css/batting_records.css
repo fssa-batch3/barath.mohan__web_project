@@ -1,52 +1,97 @@
-body>h1{
+nav ul li:nth-child(3) a {
+    box-shadow: .5px .5px 2px black;
+}
+
+body {
+    background-image: url(../images/background\ img2.jpg);
+    background-size: 1500px 1100px;
+    background-attachment: fixed;
+}
+
+body>h1 {
     text-align: center;
     margin: 50px auto 0px auto;
-    }
-    .content{
-        width:94%;
-        margin: 50px 3%;
-    }
-    .content1{
-        border-radius: 50px;
-        display: flex;
-        justify-content: space-evenly;
-        height: 400px;
-        align-items: center;
-        text-align: center;
-        padding: 40px;
-        box-sizing: border-box;
-        margin-bottom:20px ;
-        background-image: radial-gradient(#b7b6b6,#FAFAFA);
-        background-image: url(../images/records/backgrpund.jpeg);
-        background-size: cover;
-        transform: scale(.9);
-    }
-    .content1 img {
-        width:300px;
-        border-radius: 30px;
-        box-shadow: -2px -2px  30px black;
-    }
-    .record{
-        height: 300px;
-        border-radius: 20px;
-    }
-    .record h1{
-        margin-top:60px;
-    }
-    .record h3{
-        margin-bottom: 30px;
-    }
-    #rohit, #sachin{
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to bottom right,#04245c,#0a5d8a,#04245c);
-    }
-    #aaron{
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to right,#84801d,#989421);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
 
-    }
-    .batball{
-        margin-top: 150px ;
-    }
+}
+.content {
+    width: 94%;
+    margin: 50px 3%;
+}
+
+.content1 {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-image: radial-gradient(#b7b6b6, #FAFAFA);
+    background-image: url(../images/records/backgrpund.jpeg);
+    background-size: cover;
+    transform: scale(.8);
+}
+
+.content1 img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.record {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.record h1 {
+    margin-top: 60px;
+}
+
+.record h3 {
+    margin-bottom: 30px;
+}
+
+#rohit,
+#sachin {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, #04245c, #0a5d8a, #04245c);
+}
+
+#aaron {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #84801d, #989421);
+
+}
+#lara{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #935656, #5c0c0c);
+
+}
+#afridi{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #91ac59, #507b6f);
+
+}
+.batball {
+    margin-top: 150px;
+}
+.content> a{
+    padding: 15px 30px;
+    border-radius:20px ;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom right,#1da0fa,#107cc5);
+    margin-left: 1130px;
+}
+.content >a:hover{
+    color: #0c598d;
+    background-image: linear-gradient(to bottom right,#cae9fc,#c3e6ff);
+}
